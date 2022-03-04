@@ -1,13 +1,12 @@
 # USAGE
-  1. Run "npm install"
-  2. Copy this file from owner into ./ 
+  1. Copy this file from owner into ./ 
      -  .env
      -  docker-compose.yml
      -  private.key
      -  public.key
      -  redis.conf
-  3. Run "docker-compose up"
-  4. NOTE : 
+  2. Run "docker-compose up"
+  3. NOTE : 
   Your computer must installed docker
 
 # ENDPOINTS 
