@@ -1,12 +1,13 @@
 # USAGE
-  1. Copy this file from owner into ./ 
+  1. Run git clone or unzip downloaded of file zip
+  2. Copy this file from owner into ./ 
      -  .env
      -  docker-compose.yml
      -  private.key
      -  public.key
      -  redis.conf
-  2. Run "docker-compose up"
-  3. NOTE : 
+  3. Run "docker-compose up"
+  4. NOTE : 
   Your computer must installed docker
 
 # ENDPOINTS 
