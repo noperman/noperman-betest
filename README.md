@@ -7,7 +7,7 @@
      -  public.key
      -  redis.conf
   3. Run "docker-compose up"
-  NOTE : 
+  4. NOTE : 
   Your computer must installed docker
 
 # ENDPOINTS 
