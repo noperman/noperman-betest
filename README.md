@@ -14,6 +14,7 @@
 1. Public
    - Generate Token
    POST -> http://localhost:3000/v1/token/generator
+   
 3. Protected
    Use authorization type Bearer Token
    like bellow
@@ -53,6 +54,7 @@
         "identityNumber" : "12314213123" 
      }
      </pre></code>
+     
    DELETE
    - DELETE -> http://localhost:3000/v1/user/:id
      :id => UUID
