@@ -26,6 +26,9 @@
    - POST -> http://localhost:3000/v1/user
      body:
      {
+      tes
+     }
+     {
         "userName" : "updateUsername",
         "accountNumber" : "1234",
         "emailAddress" : "mailtestupdate@gmail.com",
