@@ -24,8 +24,8 @@
    
    CREATE
    - POST -> http://localhost:3000/v1/user
-     body:
      <pre><code>
+     body:
      {
         "userName" : "updateUsername",
         "accountNumber" : "1234",
@@ -44,7 +44,7 @@
    UPDATE
    - PATCH -> http://localhost:3000/v1/user/:id
      :id => UUID
-     
+     <pre><code>
      body:
      {
         "userName" : "updateUsername",
@@ -52,7 +52,7 @@
         "emailAddress" : "mailtestupdate@gmail.com",
         "identityNumber" : "12314213123" 
      }
-     
+     </pre></code>
    DELETE
    - DELETE -> http://localhost:3000/v1/user/:id
      :id => UUID
