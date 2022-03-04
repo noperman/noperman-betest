@@ -25,15 +25,14 @@
    CREATE
    - POST -> http://localhost:3000/v1/user
      body:
-     {
-      tes
-     }
+     <pre><code>
      {
         "userName" : "updateUsername",
         "accountNumber" : "1234",
         "emailAddress" : "mailtestupdate@gmail.com",
         "identityNumber" : "12314213123" 
      }
+     </pre></code>
      
    READ
    - GET -> http://localhost:3000/v1/user/account/:accountNumber
